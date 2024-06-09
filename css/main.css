@@ -1,0 +1,26 @@
+@import url("../css/navbar.css");
+@import url("../css/masthead.css");
+@import url("../css/showcase.css");
+@import url("../css/about-me.css");
+@import url("../css/socials.css");
+@import url("../css/footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    /* *COLORS */
+    --heavy-clr: #401F71;
+    --medium-clr: #824D74;
+    --light-clr: #BE7B72;
+    --warm-clr: #FDAF7B;
+    --white-clr: white;
+    --black-clr: black;
+
+    /* FONT FAMILIES */
+    --ff-heading: "Orbitron", sans-serif;
+    --ff-text: "Roboto", sans-serif;
+
+    /* FONT SIZES */
+    --fs-body: 16px;
+    --fs-Headers: 40px;
+}
+
