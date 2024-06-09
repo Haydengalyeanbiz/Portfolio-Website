@@ -8,12 +8,13 @@
 
 :root {
     /* *COLORS */
-    --heavy-clr: #401F71;
-    --medium-clr: #824D74;
-    --light-clr: #BE7B72;
-    --warm-clr: #FDAF7B;
+    --heavy-clr: #001B79;
+    --medium-clr: #1640D6;
+    --light-clr: #ED5AB3;
+    --warm-clr: #FF90C2;
     --white-clr: white;
     --black-clr: black;
+    --gray-clr: #31363F;
 
     /* FONT FAMILIES */
     --ff-heading: "Orbitron", sans-serif;
@@ -21,6 +22,44 @@
 
     /* FONT SIZES */
     --fs-body: 16px;
-    --fs-Headers: 40px;
+    --fs-Headers: 30px;
+    --fs-bigheader: 60px;
 }
 
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: var(--ff-heading);
+    font-size: var(--fs-bigheader);
+    color: var(--white-clr); 
+}
+h2,
+h3 {
+    font-family: var(--ff-heading);
+    font-size: var(--fs-Headers);
+    color: var(--white-clr); 
+}
+
+p, 
+a,
+li {
+    font-family: var(--ff-text);
+    font-size: var(--fs-body);
+    list-style: none;
+    text-decoration: none;
+    color: var(--white-clr);
+}
+
+.main-dis {
+    display: flex;
+    height: 100dvh;
+    background-color: var(--heavy-clr);
+}
+
+.display-area {
+    width: 80dvw;
+}
