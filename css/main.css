@@ -16,14 +16,28 @@
     --black-clr: black;
     --gray-clr: #31363F;
 
+    /* main colors for page */
+    --background-clr: #FFF5E0;
+    --dark-clr: #141E46;
+    --accent-clr: #8DECB4;
+    --smoothaccent-clr: #41B06E;
+
     /* FONT FAMILIES */
     --ff-heading: "Orbitron", sans-serif;
     --ff-text: "Roboto", sans-serif;
 
     /* FONT SIZES */
     --fs-body: 16px;
+    --fs-navlink: 18px;
     --fs-Headers: 30px;
-    --fs-bigheader: 60px;
+    --fs-bigheader: 70px;
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
 }
 
 body,
@@ -45,7 +59,6 @@ h3 {
 }
 
 p, 
-a,
 li {
     font-family: var(--ff-text);
     font-size: var(--fs-body);
@@ -54,12 +67,23 @@ li {
     color: var(--white-clr);
 }
 
+a {
+    font-family: var(--ff-text);
+    font-size: var(--fs-navlink);
+    list-style: none;
+    text-decoration: none;
+    color: var(--white-clr);
+}
+
 .main-dis {
     display: flex;
     height: 100dvh;
-    background-color: var(--heavy-clr);
+    background-color: var(--background-clr);
 }
 
 .display-area {
-    width: 80dvw;
+    width: 90dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

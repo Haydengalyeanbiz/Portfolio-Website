@@ -1,5 +1,17 @@
 .navbar {
     display: flex;
-    width: 20dvw;
-    border: solid 2px red;
+    width: 10dvw;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--smoothaccent-clr);
+}
+
+.nav-content {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
